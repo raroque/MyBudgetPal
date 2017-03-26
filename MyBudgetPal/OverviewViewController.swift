@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  OverviewViewController.swift
 //  MyBudgetPal
 //
 //  Created by Christian Raroque on 3/26/17.
@@ -8,18 +8,17 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class OverviewViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+
+        // Do any additional setup after loading the view.
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
-
+    
 }
-

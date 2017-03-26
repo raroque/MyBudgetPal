@@ -9,8 +9,11 @@
 /* Begin PBXBuildFile section */
 		1468634A3011AA7B3DA124D0 /* Pods_MyBudgetPal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E589B7E1241B4CF1ACC20FD5 /* Pods_MyBudgetPal.framework */; };
 		2827F46F8CFAF975DE1C1822 /* Pods_MyBudgetPalTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AD4D9A415D13FA670160749 /* Pods_MyBudgetPalTests.framework */; };
+		833B27901E87A4C200C71213 /* OverviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 833B278F1E87A4C200C71213 /* OverviewViewController.swift */; };
+		833B27921E87A4F100C71213 /* AddExpenseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 833B27911E87A4F100C71213 /* AddExpenseViewController.swift */; };
+		833B27941E87A52000C71213 /* BudgetsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 833B27931E87A52000C71213 /* BudgetsViewController.swift */; };
+		833B27961E87A55E00C71213 /* Objects.swift in Sources */ = {isa = PBXBuildFile; fileRef = 833B27951E87A55E00C71213 /* Objects.swift */; };
 		83B4A8101E87A23500D8EB02 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83B4A80F1E87A23500D8EB02 /* AppDelegate.swift */; };
-		83B4A8121E87A23500D8EB02 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83B4A8111E87A23500D8EB02 /* ViewController.swift */; };
 		83B4A8151E87A23500D8EB02 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83B4A8131E87A23500D8EB02 /* Main.storyboard */; };
 		83B4A8181E87A23500D8EB02 /* MyBudgetPal.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 83B4A8161E87A23500D8EB02 /* MyBudgetPal.xcdatamodeld */; };
 		83B4A81A1E87A23500D8EB02 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83B4A8191E87A23500D8EB02 /* Assets.xcassets */; };
@@ -45,9 +48,12 @@
 		45D8259455914131F56671D0 /* Pods-MyBudgetPalTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyBudgetPalTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MyBudgetPalTests/Pods-MyBudgetPalTests.release.xcconfig"; sourceTree = "<group>"; };
 		4AD4D9A415D13FA670160749 /* Pods_MyBudgetPalTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyBudgetPalTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		50E2C024F6604D94A6B3D729 /* Pods-MyBudgetPalTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyBudgetPalTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MyBudgetPalTests/Pods-MyBudgetPalTests.debug.xcconfig"; sourceTree = "<group>"; };
+		833B278F1E87A4C200C71213 /* OverviewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OverviewViewController.swift; sourceTree = "<group>"; };
+		833B27911E87A4F100C71213 /* AddExpenseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddExpenseViewController.swift; sourceTree = "<group>"; };
+		833B27931E87A52000C71213 /* BudgetsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BudgetsViewController.swift; sourceTree = "<group>"; };
+		833B27951E87A55E00C71213 /* Objects.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Objects.swift; sourceTree = "<group>"; };
 		83B4A80C1E87A23500D8EB02 /* MyBudgetPal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyBudgetPal.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		83B4A80F1E87A23500D8EB02 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		83B4A8111E87A23500D8EB02 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		83B4A8141E87A23500D8EB02 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		83B4A8171E87A23500D8EB02 /* MyBudgetPal.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MyBudgetPal.xcdatamodel; sourceTree = "<group>"; };
 		83B4A8191E87A23500D8EB02 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -140,8 +146,11 @@
 			isa = PBXGroup;
 			children = (
 				83B4A80F1E87A23500D8EB02 /* AppDelegate.swift */,
-				83B4A8111E87A23500D8EB02 /* ViewController.swift */,
 				83B4A8131E87A23500D8EB02 /* Main.storyboard */,
+				833B27951E87A55E00C71213 /* Objects.swift */,
+				833B27911E87A4F100C71213 /* AddExpenseViewController.swift */,
+				833B27931E87A52000C71213 /* BudgetsViewController.swift */,
+				833B278F1E87A4C200C71213 /* OverviewViewController.swift */,
 				83B4A8191E87A23500D8EB02 /* Assets.xcassets */,
 				83B4A81B1E87A23500D8EB02 /* LaunchScreen.storyboard */,
 				83B4A81E1E87A23500D8EB02 /* Info.plist */,
@@ -453,8 +462,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				83B4A8181E87A23500D8EB02 /* MyBudgetPal.xcdatamodeld in Sources */,
-				83B4A8121E87A23500D8EB02 /* ViewController.swift in Sources */,
+				833B27921E87A4F100C71213 /* AddExpenseViewController.swift in Sources */,
+				833B27901E87A4C200C71213 /* OverviewViewController.swift in Sources */,
 				83B4A8101E87A23500D8EB02 /* AppDelegate.swift in Sources */,
+				833B27961E87A55E00C71213 /* Objects.swift in Sources */,
+				833B27941E87A52000C71213 /* BudgetsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -709,6 +721,7 @@
 				83B4A8391E87A23500D8EB02 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		83B4A83A1E87A23500D8EB02 /* Build configuration list for PBXNativeTarget "MyBudgetPalTests" */ = {
 			isa = XCConfigurationList;
@@ -717,6 +730,7 @@
 				83B4A83C1E87A23500D8EB02 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		83B4A83D1E87A23500D8EB02 /* Build configuration list for PBXNativeTarget "MyBudgetPalUITests" */ = {
 			isa = XCConfigurationList;
@@ -725,6 +739,7 @@
 				83B4A83F1E87A23500D8EB02 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
