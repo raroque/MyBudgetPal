@@ -7,6 +7,7 @@ target 'MyBudgetPal' do
 
   # Pods for MyBudgetPal
   pod 'RealmSwift'
+  pod 'SwiftDate', '~> 4.0'
   
 
   target 'MyBudgetPalTests' do
