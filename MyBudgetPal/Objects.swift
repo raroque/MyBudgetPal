@@ -24,7 +24,10 @@ class Expense: Object {
     dynamic var budget: Budget?
 }
 
-class DataManager: Object {
+class DataManager: NSObject {
+    
+    var budgets = [Budget]()
+    var expenses = [Expense]()
     
     func getBudgets() -> [Budget] {
         let realm = try! Realm()
